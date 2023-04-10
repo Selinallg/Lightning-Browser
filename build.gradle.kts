@@ -4,9 +4,10 @@ buildscript {
         google()
         mavenCentral()
         jcenter()
+
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:7.4.1")
+        classpath("com.android.tools.build:gradle:7.3.1")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.10")
         classpath("com.github.ben-manes:gradle-versions-plugin:0.45.0")
     }
